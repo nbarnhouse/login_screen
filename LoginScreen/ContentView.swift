@@ -20,12 +20,12 @@ struct ContentView: View {
             ZStack {
                 Color.blue
                     .ignoresSafeArea()
-                Circle()
+               /* Circle()
                     .scale(1.7)
                     .foregroundColor(.white.opacity(0.15))
                 Circle()
                     .scale(1.35)
-                    .foregroundColor(.white)
+                    .foregroundColor(.white) */
 
                 VStack {
                     Text("Login")
